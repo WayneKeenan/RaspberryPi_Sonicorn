@@ -3,7 +3,7 @@
 
 **It's time to start the music, it's time to light the lights...**
 
-
+See a video [here](https://youtu.be/JMZ88CPEMgY)
 
 ## Setup
 
