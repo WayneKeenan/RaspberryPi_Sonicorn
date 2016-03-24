@@ -7,12 +7,19 @@
 
 ## Setup
 
-- Unicorn Hat:  Follow the instruction [here](https://github.com/pimoroni/unicorn-hat)
+- Unicorn Hat:  Follow the instructions [here](https://github.com/pimoroni/unicorn-hat)
 - Python WebSocket server:   `sudo pip install git+https://github.com/dpallot/simple-websocket-server.git`
 - Ruby WebSocket Client:  `sudo gem install websocket-client-simple`
 
 
 ## Running:
+
+- Start the Python server
+- Make some minor tweaks to your Soni Pi program and Run
+ 
+
+
+# Python Server
 
 ```
 sudo python sonicorn_server.py
@@ -33,7 +40,6 @@ Add this where you want the rainbow pulse to trigger, this send a string to the 
 ```
 ws.send "rainbow"
 ```
-
 
 
 At the moment it doesn't actually matter what string you send, but I expect it will in the future :)
